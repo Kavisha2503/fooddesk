@@ -1,0 +1,10 @@
+DATABASE_HOST=ec2-54-217-15-9.eu-west-1.compute.amazonaws.com
+DATABASE=da49eqberh71v6
+DATABASE_USER=qdtqafmrlfhnnr
+DATABASE_PORT=5432
+DATABASE_PASSWORD=f2511912d954d88aa72b8341b1c3cf9761e36e7b8e87eeeebc96b1035f05080d
+DATABASE_URL=postgres://qdtqafmrlfhnnr:f2511912d954d88aa72b8341b1c3cf9761e36e7b8e87eeeebc96b1035f05080d@ec2-54-217-15-9.eu-west-1.compute.amazonaws.com:5432/da49eqberh71v6
+APP_URL=https://food-desk.heroku.com
+NODE_ENV=development
+EMAIL_ADDRESS=royjustin869@gmail.com
+EMAIL_PASSWORD=Group17@spm

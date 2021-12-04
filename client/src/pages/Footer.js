@@ -72,9 +72,9 @@ const Footer = () => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'></i> Address :
                 </span>
-                Food desk
+                Food desk <br/>shop no.14,Akshat Heaven Rd, <br/> near Sardar Chok,  Urjanagar 1,<br/>  Kudasan,  Gandhinagar, <br/> Gujarat 382421
               </p>
             </div>
             <div className='contact-item'>
@@ -82,7 +82,7 @@ const Footer = () => {
                 <span>
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
-                9925095510
+                9925099210
               </p>
             </div>
             <div className='contact-item'>
@@ -90,7 +90,7 @@ const Footer = () => {
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
-                Kavishapatela@gmail.com
+                Fooddesk@gmail.com
               </p>
             </div>
           </div>

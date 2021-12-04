@@ -1,47 +1,44 @@
 import noprofile from "../Images/noprofile.jpeg"
 import React from "react";
+import "./feature.css";
 const Team = () => {
     return (
-      <div className='text-center'>
-        <div className='container'>
-          <div className='col-md-10 col-md-offset-1 section-title'></div>
-          <div key="" className='col-md-3 col-sm-6 team'>
-                    <div className='thumbnail'style={{"width":"290px" , "height":"350px"}}>
-                      {' '}
-                      <img src={noprofile } alt='...'  />
-                      <div className='caption'>
-                        <h4><b>Alay Kharadi</b></h4>
-                    
-                      </div>
-                    </div>
-                  </div>
+      <div>
+      <div class="cards-list">
 
-                 
-                   <div key="" className='col-md-3 col-sm-6 team'>
-                    <div className='thumbnail'style={{"width":"290px" , "height":"350px"}}>
-                      {' '}
-                      <img src={noprofile } alt='...'  />
-                      <div className='caption'>
-                      <h4><b>Jeel Damor</b></h4>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
+<div class="card 1">
+  <div class="card_image"> <img src={noprofile} /> </div>
+  <div class="card_title title-black">
+    <p>Kavisha Patel</p>
+  </div>
+</div>
 
-                  <div key="" className='col-md-3 col-sm-6 team'>
-                    <div className='thumbnail' style={{"width":"290px" , "height":"350px"}}>
-                      {' '}
-                      <img src={noprofile} alt='...'   style={{"height":"240px"}}/>
-                      <div className='caption'>
-                          <br/>
-                      <h4><b>Kavisha Patel</b></h4>
-                      </div>
-                    </div>
-                  </div>
-           
-         
-          </div>
-        </div>
+  <div class="card 2">
+  <div class="card_image">
+    <img classname="img"src={noprofile}/>
+    </div>
+  <div class="card_title title-black">
+    <p>Jeel Damor</p>
+  </div>
+</div>
+
+<div class="card 3">
+  <div class="card_image">
+    <img src={noprofile} />
+  </div>
+  <div class="card_title">
+    <p>Kharadi Alay</p>
+  </div>
+</div>
+  
+  
+
+</div>
+
+
+
+      
+      </div>
       
     );
   }

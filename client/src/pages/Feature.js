@@ -3,60 +3,51 @@ import Customer from "../Images/Customer.jpeg";
 import Easymanagment from "../Images/Easymanagment.png";
 import flexible from "../Images/flexible.jpeg";
 import payment from "../Images/payment.jpeg";
+import "./feature.css";
 const Feature = () => {
     return (
-      <div id='features' className='text-center'>
-        <div className='container'>
-          <div className='col-md-10 col-md-offset-1 section-title'></div>
-          <div key="" className='col-md-3 col-sm-6 team'>
-                    <div className='thumbnail'style={{"width":"290px" , "height":"350px"}}>
-                      {' '}
-                      <img src={payment} alt='...'  />
-                      <div className='caption'>
-                        <h4><b>Payment Processing</b></h4>
-                    
-                      </div>
-                    </div>
-                  </div>
+      <div>
+        <div class="cards-list">
+  
+  <div class="card 1">
+    <div class="card_image"> <img src={cafemanagment} /> </div>
+    <div class="card_title title-black">
+      <p>Cafeteria Inventory Management</p>
+    </div>
+  </div>
+  
+    <div class="card 2">
+    <div class="card_image">
+      <img classname="img"src={Customer}/>
+      </div>
+    <div class="card_title title-black">
+      <p>Customer Relationship System</p>
+    </div>
+  </div>
+  
+  <div class="card 3">
+    <div class="card_image">
+      <img src={Easymanagment} />
+    </div>
+    <div class="card_title">
+      <p>Easy Management</p>
+    </div>
+  </div>
+    
+    <div class="card 4">
+    <div class="card_image">
+      <img src={flexible}/>
+      </div>
+    <div class="card_title title-black">
+      <p>Flexible</p>
+    </div>
+    </div>
+  
+  </div>
 
-                 
-                   <div key="" className='col-md-3 col-sm-6 team'>
-                    <div className='thumbnail'style={{"width":"290px" , "height":"350px"}}>
-                      {' '}
-                      <img src={flexible} alt='...'  />
-                      <div className='caption'>
-                      <h4><b>Flexible</b></h4>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div key="" className='col-md-3 col-sm-6 team'>
-                    <div className='thumbnail' style={{"width":"290px" , "height":"350px"}}>
-                      {' '}
-                      <img src={ Customer} alt='...'   style={{"height":"240px"}}/>
-                      <div className='caption'>
-                          <br/>
-                      <h4><b>Customer Relationship System</b></h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div key="" className='col-md-3 col-sm-6 team'>
-                    <div className='thumbnail'style={{"width":"290px" , "height":"350px"}}>
-                      {' '}
-                      <img src={cafemanagment} alt='...' style={{"height":"240px"}}/>
-                      <div className='caption'>
-                      <br/>
-                      <h4><b>Cafeteria Inventory Management</b></h4>
-                        
-                     
-                      </div>
-                    </div>
-                  </div>
-            
-                
-               
-          </div>
+  
+ 
+        
         </div>
     
     )

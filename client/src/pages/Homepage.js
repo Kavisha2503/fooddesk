@@ -68,7 +68,7 @@ export default function HomePage()
              <Slider/>
           </header>
           </div>
-          {/* Add a background color and large text to the whole page */}
+        
 
 
           <div className="w3-sand w3-grayscale w3-large">
@@ -96,24 +96,26 @@ export default function HomePage()
                 <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
                 
               </div>
-            </div>
-
+           
+</div>
             {/*Feature*/}
+              <br/> <br/> <br/> <br/> <br/>
 
-            <div className="w3-container" id="Feature">
-              <div className="w3-content" style={{maxWidth: '2000px'}}>
-              <h5 className="w3-center w3-padding-64">
-                  
-                  <span className="w3-tag w3-wide"></span></h5>
+            <div className="w3-container"  id="Feature">
+
+            <div className="w3-content" style={{maxWidth: '1200px'}}>   
+            <h5 className="w3-center w3-padding-64">  
+            <span className="w3-tag w3-wide"></span></h5>        
                  <h1>
                   <nav>
-                  <center><a href="" className="w3-block" style={{"text-decoration": "underline" , "color":"black" }}>FEATURE </a> </center>
+                  <center><a href=""  style={{"text-decoration": "underline" , "color":"black" }}>FEATURE </a> </center>
                   </nav>
                   </h1>
                  
                   <Feature/>
                   
-                </div>
+               
+              </div>
               </div>
               <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
               
